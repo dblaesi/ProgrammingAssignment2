@@ -1,4 +1,4 @@
-## The following functions 
+## 
 ## 
 
 ##  This function creates a special "matrix" object that can cache its inverse
@@ -35,5 +35,4 @@ cacheSolve <- function(x, ...) {
     inv
 }
 
-# M<-makeCacheMatrix(matrix(c(1,1,1,0),2,2))
-# cacheSolve(M)
+
